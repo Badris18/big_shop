@@ -21,6 +21,8 @@ Route::get('/login',[HomeController::class,'login'])->name('home.login');
 
 Route::get('/register',[HomeController::class,'register'])->name('home.register');
 
+Route::get('/forget_password',[HomeController::class,'forget_password'])->name('home.forget_password');
+
 use App\Http\Controllers\InvoiceController;
 
 Route::get('/invoice/generate-pdf/{id}', [InvoiceController::class, 'generateInvoicePdf'])->name('invoice.generate-pdf');
