@@ -30,7 +30,18 @@
     @include('frontend.layout.topbar')
 
 
-   
+    <!-- slider -->
+
+    <main class="main">
+
+        <!-- Include the slider partial -->
+        @include('frontend.slider.type1')
+
+         
+
+         
+
+    </main>
 
     @yield('content')
 
