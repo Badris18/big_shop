@@ -20,11 +20,17 @@
 </head>
 <body>
 
+    <!-- Include the Footer partial -->
+    @include('frontend.modal.type1')
+
     <!-- Include the Header partial -->
     @include('frontend.layout.header')
 
     <!-- Include the Topbar partial -->
     @include('frontend.layout.topbar')
+
+
+   
 
     @yield('content')
 
@@ -33,6 +39,8 @@
 
     <!-- Include the Footer partial -->
     @include('frontend.preloader.type1')
+
+   
 
 
      <!-- Vendor JS-->
