@@ -37,7 +37,8 @@
         <!-- Include the slider partial -->
         @include('frontend.slider.type1')
 
-         
+         <!-- Include the feature categories partial -->
+         @include('frontend.slider.feature_categories.type1')
 
          
 
