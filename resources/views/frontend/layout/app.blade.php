@@ -43,7 +43,8 @@
         <!-- Include the popular product partial -->
         @include('frontend.slider.popular_product.type1')
 
-
+        <!-- Include the popular product partial -->
+         @include('frontend.slider.daily_best_sells.type1')
 
     </main>
 
